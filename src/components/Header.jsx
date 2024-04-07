@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { Label } from "@/components/ui/label"
+import { Switch } from "@/components/ui/switch"
 
 
 
@@ -7,18 +9,18 @@ const Header = () => {
   return (
     <header> 
         <nav className='flex justify-between items-center'>
-          <Image 
-            src="/icons/logo.png" 
-            width={90}
-            height={90}
-            className='ml-0' 
-          />
-            <ul className='flex justify-between w-72'>
-                <li><Link className="hover:underline decoration-4 transition duration-300 hover:rounded-lg" href="#">Home</Link></li>
-                <li><Link className="hover:underline decoration-4 transition duration-300 hover:rounded-lg" href="#">About us</Link></li>
-                <li><Link className="hover:underline decoration-4 transition duration-300 hover:rounded-lg" href="#">Portfolio</Link></li>
-                <li><Link className="hover:underline decoration-4 transition duration-300 hover:rounded-lg" href="#">News</Link></li>
-            </ul>
+          <Link href="/">
+            <Image 
+              src="/icons/logo.png" 
+              width={90}
+              height={90}
+              className='ml-0' 
+            />
+          </Link>
+          <div className='flex justify-between items-center gap-3'>
+            <Switch id="dark-mode" />
+            <Label htmlFor="dark-mode">Темная тема</Label>
+          </div>
         </nav>
     </header>
   );

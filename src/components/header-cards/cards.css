@@ -1,0 +1,36 @@
+.im1 {
+    position: absolute;
+    left: 690px;
+    width: 200px;
+    z-index:1;
+}
+.im2 {
+    position: absolute;
+    left: 970px;
+    width: 200px;
+    z-index:2;
+
+}
+
+.im3 {
+    position: absolute;
+    top: -50px;
+    left: 800px;
+    width: 200px;
+    z-index:3;
+}
+
+.im4 {
+    position: absolute;
+    left: 970px;
+    width: 200px;
+    z-index:2;
+}
+
+.rotate9 {
+    transform: rotate(-9deg);
+    }
+    
+.rotate7 {
+    transform: rotate(7deg);
+    }
