@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Предварительные условия
 
-First, run the development server:
+Перед началом убедитесь, что у вас установлены следующие инструменты:
+
+- Git
+- Node.js (рекомендуется использовать последнюю стабильную версию)
+- npm или Yarn (Yarn обычно работает быстрее)
+
+## Клонирование репозитория
+
+Чтобы скопировать проект на вашу локальную машину, откройте терминал и выполните следующую команду:
+
+```bash
+git clone https://github.com/pirozheka/agile-poker.git
+```
+
+## Установка зависимостей
+
+Перейдите в директорию проекта:
+
+```bash
+cd agile_poker
+```
+
+Установите необходимые зависимости:
+
+```bash
+npm install
+```
+
+или, если вы используете Yarn:
+
+```bash
+yarn install
+```
+
+## Запуск проекта
+
+Чтобы запустить проект в режиме разработки, выполните:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+или, если вы используете Yarn:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+После этого откройте `http://localhost:3000` в вашем браузере, чтобы увидеть результат.
 
-## Learn More
+## Сборка проекта
 
-To learn more about Next.js, take a look at the following resources:
+Для создания оптимизированной версии проекта используйте команду:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+или, если вы используете Yarn:
 
-## Deploy on Vercel
+```bash
+yarn build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Затем, чтобы запустить собранный проект:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm start
+```
+
+или, если вы используете Yarn:
+
+```bash
+yarn start
+```
+
+## Дополнительные скрипты
+
+В `package.json` могут быть определены дополнительные скрипты, которые вы можете использовать для тестирования, линтинга и т.д.
+
+## Внесение изменений
+
+Если вы хотите внести изменения в проект, создайте новую ветку и используйте Pull Requests для слияния ваших изменений с основной веткой.
+
+## Проблемы
+
+Если вы столкнулись с какими-либо проблемами, пожалуйста, откройте Issue в репозитории GitHub.
+
+---
+
+После того, как вы выполните эти шаги, ваш Next.js проект должен быть успешно запущен на вашей локальной машине. Удачной разработки!
