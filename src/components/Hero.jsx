@@ -3,7 +3,7 @@ import Cards from "./header-cards/Cards";
 
 const Hero = () => {
   return (
-    <div  className="mt-24 flex justify-between relative" >
+    <div  className="mt-24 flex justify-between relative container" >
       <div>
         <h2 className="text-2xl font-semibold">Покер планирование для Agile-команд</h2>
         <ul className="mt-10 pl-8">

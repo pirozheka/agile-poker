@@ -9,7 +9,6 @@ const Header = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
-    console.log('fjf')
     setIsDarkMode(!isDarkMode);
   };
 
@@ -23,7 +22,7 @@ const Header = () => {
 
 
   return (
-    <header> 
+    <header className='container'> 
         <nav className='flex justify-between items-center'>
           <Link href="/">
             <img

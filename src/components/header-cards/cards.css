@@ -1,61 +1,136 @@
 .im1 {
-    position: absolute;
-    left: 690px;
-    width: 200px;
-    z-index:1;
+  position: absolute;
+  left: 690px;
+  width: 200px;
+  z-index: 1;
 }
+
 .im2 {
-    position: absolute;
-    left: 970px;
-    width: 200px;
-    z-index:2;
+  position: absolute;
+  left: 970px;
+  width: 200px;
+  z-index: 2;
 
 }
 
 .im3 {
-    position: absolute;
-    opacity: 0;
-    top: -50px;
-    left: 800px;
-    width: 200px;
-    z-index:3;
-    animation: slideFromTop 1.5s ease forwards;
-    animation-delay: 1.5s;
+  position: absolute;
+  opacity: 0;
+  top: -50px;
+  left: 800px;
+  width: 200px;
+  z-index: 3;
+  animation: slideFromTop 1.5s ease forwards;
+  animation-delay: 1.5s;
 }
 
 .im4 {
-    position: absolute;
-    left: 970px;
-    width: 200px;
-    z-index:2;
-    animation: slideFromRight 1.5s ease forwards;
+  position: absolute;
+  left: 970px;
+  width: 235px;
+  z-index: 2;
+  animation: slideFromRight 1.5s ease forwards;
+}
+
+.hand-01 {
+  position: absolute;
+  opacity: 0;
+  left: 1050px;
+  top: 100px;
+  width: 350px;
+  z-index: 2;
+  animation: handFromRight 3s ease forwards;
+}
+
+.hand-02 {
+  position: absolute;
+  opacity: 0;
+  left: 850px;
+  top: -200px;
+  width: 100px;
+  z-index: 4;
+  animation: slideHandFromTop 3s ease forwards;
+  animation-delay: 1.5s;
 }
 
 .rotate9 {
-    transform: rotate(-9deg);
-    }
-    
+  transform: rotate(-9deg);
+}
+
 .rotate7 {
-    transform: rotate(7deg);
-    }
+  transform: rotate(7deg);
+}
 
-    @keyframes slideFromTop {
-        from {
-          transform: translateY(-100%);
-          opacity: 1;
-        }
-        to {
-          transform: translateY(0);
-          opacity: 1;
-        }
-      }
-      
-      @keyframes slideFromRight {
-        from {
-          transform: translateX(100%);
-        }
-        to {
-          transform: translateX(0);
+@keyframes slideFromTop {
+  from {
+    transform: translateY(-100%);
+    opacity: 1;
+    visibility: visible;
+  }
 
-        }
-      }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100%);
+    
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes handFromRight {
+  from {
+    transform: translateX(65%);
+    opacity: 0;
+  }
+
+  1% {
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(70%);
+    opacity: 0;
+  }
+}
+
+@keyframes slideHandFromTop {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  1% {
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
