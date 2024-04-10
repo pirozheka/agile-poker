@@ -1,56 +1,56 @@
 .im1 {
   position: absolute;
-  left: 690px;
-  width: 200px;
+  left: 60%;
+  width: 300px;
   z-index: 1;
 }
 
 .im2 {
   position: absolute;
-  left: 970px;
-  width: 200px;
+  left: 80%;
+  width: 300px;
   z-index: 2;
-
 }
 
 .im3 {
   position: absolute;
-  opacity: 0;
-  top: -50px;
-  left: 800px;
-  width: 200px;
+  opacity: 1;
+  top: -60px;
+  left: 65%;
+  width: 300px;
   z-index: 3;
-  animation: slideFromTop 1.5s ease forwards;
-  animation-delay: 1.5s;
 }
 
 .im4 {
   position: absolute;
-  left: 970px;
-  width: 235px;
+  transform: rotate(7deg);
+  opacity: 1;
+  top: 10%;
+  left: 85%;
+  width: 300px;
   z-index: 2;
-  animation: slideFromRight 1.5s ease forwards;
 }
 
 .hand-01 {
   position: absolute;
-  opacity: 0;
-  left: 1050px;
-  top: 100px;
-  width: 350px;
-  z-index: 2;
-  animation: handFromRight 3s ease forwards;
+  transform: rotate(98deg);
+  opacity: 1;
+  left: 110%;
+  visibility: hidden;
+  top: -20%;
+  z-index: 3;
+  
 }
 
 .hand-02 {
+  margin:0;
+  padding: 0;
   position: absolute;
-  opacity: 0;
-  left: 850px;
-  top: -200px;
-  width: 100px;
+  transform: rotate(5deg);
+  left: 74%;
+  top: -600px;
+  visibility: hidden;
   z-index: 4;
-  animation: slideHandFromTop 3s ease forwards;
-  animation-delay: 1.5s;
 }
 
 .rotate9 {
@@ -61,76 +61,32 @@
   transform: rotate(7deg);
 }
 
-@keyframes slideFromTop {
+@keyframes slideCardFromTop {
   from {
-    transform: translateY(-100%);
-    opacity: 1;
-    visibility: visible;
+    transform: translateY(-200px);
+    opacity: 0;
   }
-
+  50% {
+    transform: rotate(5deg) translateY(0);
+    opacity: 1;
+  }
   to {
     transform: translateY(0);
     opacity: 1;
   }
 }
 
-@keyframes slideFromRight {
-  from {
-    transform: translateX(100%);
-    
-  }
-
-  to {
-    transform: translateX(0);
-  }
-}
-
-@keyframes handFromRight {
-  from {
-    transform: translateX(65%);
-    opacity: 0;
-  }
-
-  1% {
-    opacity: 1;
-  }
-
-  50% {
-    transform: translateX(0%);
-    opacity: 1;
-  }
-
-  90% {
-    opacity: 1;
-  }
-
-  to {
-    transform: translateX(70%);
-    opacity: 0;
-  }
-}
-
 @keyframes slideHandFromTop {
   from {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-
-  1% {
+    transform: rotate(5deg) translateY(-200px);
     opacity: 1;
   }
-
   50% {
-    transform: translateY(0%);
+    transform: rotate(5deg) translateY(0);
     opacity: 1;
   }
-
-  90% {
-    opacity: 1;
-  }
-
   to {
-    transform: translateY(-100%);
+    transform: rotate(5deg) translateY(-300px);
     opacity: 0;
   }
 }
