@@ -18,9 +18,11 @@ const Cards = () => {
     
     gsap.fromTo(".im3", {
       y: -580,
+      visibility: 'hidden',
     },
       {
         y: 0,
+        visibility: 'visible',
         duration: 1.5,
         delay: 1.5
       })
@@ -78,17 +80,18 @@ useGSAP(() => {
 
     // Анимация появления
     tl.from(".hand-02", {
-      y: -550,
+      y: -750,
       opacity: 1,
       duration: 1.5,
-      delay: 1.5
+      delay: 1.3
     });
   
     // Анимация возвращения в исходное положение
     tl.to(".hand-02", {
-      y: -500,
+      y: -450,
       opacity: 1,
-      duration: 1.5
+      duration: 1.5,
+
     });
   }, { scope: container });
 

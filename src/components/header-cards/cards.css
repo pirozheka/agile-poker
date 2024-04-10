@@ -43,8 +43,6 @@
 }
 
 .hand-02 {
-  margin:0;
-  padding: 0;
   position: absolute;
   transform: rotate(5deg);
   left: 74%;
