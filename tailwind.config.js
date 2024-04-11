@@ -26,6 +26,8 @@ module.exports = {
         foreground: "hsl(var(--foreground))",
         main: '#009CBB',
         secondary: '#F18225',
+        mainText: 'rgb(43, 69, 84)',
+        btnHover: 'rgb(247, 169, 104)',
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",

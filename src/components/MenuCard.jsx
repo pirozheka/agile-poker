@@ -1,9 +1,9 @@
 const MenuCard = ({ title = 'Очень длинное название задачи', taskDate = 'Вчера' }) => {
   return (
     <>
-        <div className="border-solid border-2  border-main text-main font-semibold p-5 h-36 w-1/3 rounded-xl transition-transform hover:-translate-y-6">
+        <div className="border-solid border-[1.5px]  border-main text-mainText font-semibold p-5 h-32 min-w-96 rounded-xl transition-transform hover:-translate-y-6">
             <h3>{title}</h3>
-            <p className="mt-2">{taskDate}</p>
+            <p className="mt-2 font-normal">{taskDate}</p>
         </div>        
     </>
   );
