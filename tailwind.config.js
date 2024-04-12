@@ -56,7 +56,7 @@ module.exports = {
       },
       skew: { '45': '45deg', }, 
       backgroundImage: {
-        'custom-gradient': 'linear-gradient(135deg, #009CBB 75%, #F18225 75%)',
+        'custom-gradient': 'linear-gradient(135deg, #009CBB 70%, #F18225 70%)',
       },
       keyframes: {
         "accordion-down": {

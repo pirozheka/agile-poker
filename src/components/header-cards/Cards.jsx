@@ -82,7 +82,7 @@ useGSAP(() => {
 
     // Анимация появления
     tl.from(".hand-02", {
-      y: -750,
+      y: -850,
       opacity: 1,
       duration: 1.5,
       delay: 1.3
@@ -90,21 +90,21 @@ useGSAP(() => {
   
     // Анимация возвращения в исходное положение
     tl.to(".hand-02", {
-      y: -500,
+      y: -700,
       opacity: 1,
-      duration: 1.5,
+      duration: 1.6,
 
     });
   }, { scope: container });
 
   return (
     <div ref={container} className=''>
-      <Image src="/img/card-off.svg" alt="" className='im1 rotate9' width={100} height={100} />
-      <Image src="/img/card-off.svg" alt="" className="im2 rotate7" width={100} height={100} />
-      <Image src="/img/card02.svg" alt="" width={100} height={100} className='im3' />
-      <Image src="/img/card01.svg" alt="" className="im4" width={100} height={100} />
-      <Image src="/img/hand-frame01.svg" alt="" className="hand-01" width={100} height={100} />
-      <Image src="/img/hand-frame02.svg" alt="" className="hand-02" width={100} height={100} />
+      <Image src="/img/card-off.svg" alt="" className='im1 rotate9' width={184} height={276} />
+      <Image src="/img/card-off.svg" alt="" className="im2 rotate7" width={184} height={276} />
+      <Image src="/img/card02.svg" alt="" width={184} height={276} className='im3' />
+      <Image src="/img/card01.svg" alt="" className="im4" width={184} height={100} />
+      <Image src="/img/hand-frame01.svg" alt="" className="hand-01" width={134} height={528} />
+      <Image src="/img/hand-frame02.svg" alt="" className="hand-02" width={118} height={505} />
     </div>
   );
 };
