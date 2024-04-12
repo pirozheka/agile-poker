@@ -55,6 +55,9 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       skew: { '45': '45deg', }, 
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(135deg, #009CBB 75%, #F18225 75%)',
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
