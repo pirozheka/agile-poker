@@ -1,5 +1,4 @@
 'use client'
-import Image from 'next/image';
 import Link from 'next/link';
 import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
@@ -23,13 +22,13 @@ const Header = () => {
 
   return (
     <header className='container'> 
-        <nav className='flex justify-between items-center'>
+        <nav className='flex justify-between items-center mt-16'>
           <Link href="/">
             <img
-              src="/icons/logo.png" 
-              width={90}
-              height={90}
-              className='ml-0' 
+              src="/img/zt-poker-logo-3.svg" 
+              width={64}
+              height={64}
+              className='ml-0 ' 
             />
           </Link>
           <div className='flex justify-between items-center gap-3'>

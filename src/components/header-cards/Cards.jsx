@@ -33,10 +33,12 @@ const Cards = () => {
   useGSAP(() => {
   
     gsap.fromTo(".im4", {
+      visibility: 'hidden',
       x: 800,
     },
       {
         x: 0,
+        visibility: 'visible',
         duration: 1.5,
       })
       ;
@@ -62,9 +64,9 @@ useGSAP(() => {
 
   // Анимация возвращения в исходное положение
   tl.to(".hand-01", {
-    x: 500,
+    x: 700,
     opacity: 1,
-    duration: 1.5
+    duration: 1.4
   });
 }, { scope: container });
 
@@ -88,7 +90,7 @@ useGSAP(() => {
   
     // Анимация возвращения в исходное положение
     tl.to(".hand-02", {
-      y: -450,
+      y: -500,
       opacity: 1,
       duration: 1.5,
 
