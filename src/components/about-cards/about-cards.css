@@ -1,48 +1,169 @@
 /* Карты команды */
-.im7_1 {
+.im7_0 {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    padding: 0;
-    z-index: 2;
-}
-
-.im7_2 {
+    transform: rotate(100deg);
+    width: 100%;
+    top: 0 px;
+        left: 100px;
+        padding: 0;
+        z-index:1;
+    }
+    .im7_1 {
     position: absolute;
-    top: 20px;
+        animation: move1 1s linear 1;
+        animation-fill-mode: forwards;
+        width: 100%;
+    top: 0 px;
+        left: -50px;
+        padding: 0;
+        z-index:2;
+    }
+    @keyframes move1 {
+    from {
+    left:0px;
+    transform: rotate(-45deg);}
+    to {
+    left: 120px;
+    transform: rotate(5deg);}
+    }
+    .im7_2 {
+    position: absolute;
+        animation: move2 1s linear 1;
+        animation-fill-mode: forwards;
+        animation-delay: 1.5s;
+        opacity: 0;
+        width: 100%;
+    top: 0 px;
+        left: 150px;
+        padding: 0;
+        z-index:2;
+    }
+    @keyframes move2 {
+    from {
+    left:0px;
+    transform: rotate(-45deg);
+    opacity:1;}
+    to {
+    left: 140px;
+    transform: rotate(-5deg);
+    opacity:1;}
+    }
+    .im7_3 {
+    position: absolute;
+        animation: move3 1s linear 1;
+        animation-fill-mode: forwards;
+        animation-delay: 3s;
+        opacity: 0;
+        width: 100%;
+    top: 0 px;
+        left: 550px;
+        padding: 0;
+        z-index:3;
+    }
+    @keyframes move3 {
+    from {
+    left:0px;
+    transform: rotate(-45deg);
+    opacity:1;}
+    to {
+    left: 130px;
+    transform: rotate(0deg);
+    opacity:1;}
+    }
+    
+    .im7_4 {
+    position: absolute;
+        animation: move4 1s linear 1;
+        animation-fill-mode: forwards;
+        animation-delay: 4.5s;
+        opacity: 0;
+        width: 100%;
+    top: 0 px;
+        left: -50px;
+        padding: 0;
+        z-index:4;
+    }
+    @keyframes move4 {
+    from {
+    left:0px;
+    transform: rotate(-45deg);
+    opacity:1;}
+    to {
+    left: 160px;
+    transform: rotate(-9deg);
+    opacity:1;}
+    }
+    .im7_5 {
+    position: absolute;
+        animation: move5 1s linear 1;
+        animation-fill-mode: forwards;
+        animation-delay: 6s;
+        opacity: 0;
+        width: 100%;
+    top: 0 px;
+        left:150px;
+        padding: 0;
+        z-index:5;
+    }
+    @keyframes move5 {
+    from {
+    left:0px;
+    transform: rotate(-45deg);
+    opacity:1;}
+    to {
+    left: 130px;
+    transform: rotate(7deg);
+    opacity:1;}
+    }
+    .im7_6 {
+    position: absolute;
+        animation: move6 1s linear 1;
+        animation-fill-mode: forwards;
+        animation-delay: 7.5s;
+        opacity: 0;
+        width: 100%;
+    top: 0 px;
+        left: 450px;
+        padding: 0;
+        z-index:6;
+    }
+    @keyframes move6 {
+    from {
+    left:0px;
+    transform: rotate(-45deg);
+    opacity:1;}
+    to {
+    left: 150px;
+    transform: rotate(-2deg);
+    opacity:1;}
+    }
+    .im7_7 {
+    position: absolute;
+        animation: move7 1.5s linear 6;
+        animation-fill-mode: forwards;
+        transform: rotate(-135deg);
+        opacity: 1;
+    top: -100 px;
+        left: 100px;
+        width: 30%;
+        padding: 0;
+        z-index:7;
+    }
+    @keyframes move7 {
+    0% {
+    left:-100px;
+    transform: rotate(-135deg);
+    opacity:1;
+    top: -200px}
+    33% {
     left: 50px;
-    padding: 0;
-    z-index: 2;
-}
-
-.im7_3 {
-    position: absolute;
-    top: 30px;
-    left: 90px;
-    padding: 0;
-    z-index: 3;
-}
-
-.im7_4 {
-    position: absolute;
-    top: 230px;
-    left: 10px;
-    padding: 0;
-    z-index: 4;
-}
-
-.im7_5 {
-    position: absolute;
-    top: 40px;
-    left: 90px;
-    padding: 0;
-    z-index: 5;
-}
-
-.im7_6 {
-    position: absolute;
-    top: 255px;
-    left: 90px;
-    padding: 0;
-    z-index: 6;
-}
+    transform: rotate(-120deg);
+    opacity:1;
+    top: -200px}
+    
+    100% {
+    left: -500px;
+    transform: rotate(-160deg);
+    opacity:1;
+    top: -200px}
+    }
