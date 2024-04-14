@@ -8,7 +8,6 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="dark:bg-darkThemebgmain2">
     <main className="flex flex-col justify-between mx-auto overflow-hidden dark:bg-darkThemeBg">
       <Header/>
       <Hero />
@@ -17,6 +16,6 @@ export default function Home() {
       <About />
       <Footer />
     </main>
-    </div>
+
   );
 }

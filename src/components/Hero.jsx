@@ -11,9 +11,9 @@ const Hero = () => {
           <li className="text-lg mt-5 pl-5 list-disc text-mainText dark:text-darkThemeText">Без разногласий в команде</li>
         </ul>
         <div className="flex flex-col max-w-md mt-20">
-          <Button className="bg-secondary dark:bg-darkbutton text-xl text-white w-421 h-14 rounded-xl hover:bg-btnHover dark:text-darkButtonText">Быстрая игра</Button>
+          <Button className="bg-secondary dark:bg-darkbutton text-xl text-white w-421 h-14 rounded-xl hover:bg-btnHover dark:hover:bg-darkBtnHover dark:text-darkButtonText ">Быстрая игра</Button>
           <div className="flex gap-9 mt-9">
-            <Button className="text-main dark:text-darkThemeText text-lg mlhover:underline hover:text-decoration-solid">Зарегистрироваться</Button>
+            <Button className="text-main dark:text-darkThemeText text-lg hover:underline hover:text-decoration-solid">Зарегистрироваться</Button>
             <div className="h-10 w-0.5 bg-divider dark:bg-darkThemeText"></div>
             <Button className="text-main dark:text-darkThemeText text-lg pr-0 hover:underline relative hover:text-decoration-solid">Войти</Button>
           </div>

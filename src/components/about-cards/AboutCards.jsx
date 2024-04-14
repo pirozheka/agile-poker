@@ -4,7 +4,7 @@ import './about-cards.css';
 const AbouCards = () => {
     return (
         <div className='relative'>
-            <div class="im7_0">
+            <div className="im7_0">
             <img src="/img/слайд3_блок_карт.svg" alt="" className='ml-0 block dark:hidden'></img>
             <img src="/img/слайд3_блок_dark.svg" alt="" className='ml-0 hidden dark:block'></img></div>
             <div className="im7_1">
@@ -25,7 +25,7 @@ const AbouCards = () => {
             <div className="im7_6">
                 <img src="/img/карта_команда3-6.svg" alt="" className='ml-0 block dark:hidden'></img>
                 <img src="/img/карта_команда3-6_dark.svg" alt="" className='ml-0 hidden dark:block'></img></div>
-            <div class="im7_7"><img src="/img/vectorpaint_01.svg" alt=""></img></div>
+            <div className="im7_7"><img src="/img/vectorpaint_01.svg" alt=""></img></div>
         </div>
     );
 };
