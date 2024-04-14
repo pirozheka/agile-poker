@@ -38,7 +38,7 @@ const Header = () => {
             />
           </Link>
           <div className='flex justify-between items-center gap-3'>
-            <Switch className="dark:bg-white" id="dark-mode"  checked={isDarkMode} onClick={toggleDarkMode}/>
+            <Switch className="dark:bg-darkThemeText" id="dark-mode" checked={isDarkMode} onClick={toggleDarkMode}/>
             <Label htmlFor="dark-mode">Темная тема</Label>
           </div>
         </nav>

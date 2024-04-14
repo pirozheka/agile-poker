@@ -26,10 +26,14 @@ module.exports = {
         foreground: "hsl(var(--foreground))",
         main: '#009CBB',
         secondary: '#F18225',
+        darkbutton: '#F2F3F3',
         mainText: 'rgb(43, 69, 84)',
         btnHover: 'rgb(247, 169, 104)',
+        darkThemebgmain1: '#096784',
+        darkButtonText: '#3E97B0',
         darkThemeBg: '#273a45',
         darkThemeText: '#E7ECF1',
+        darkBtnHover: '#C9D6DD',
         divider: '#E2E8F0',
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -64,6 +68,7 @@ module.exports = {
       skew: { '45': '45deg', }, 
       backgroundImage: {
         'custom-gradient': 'linear-gradient(135deg, #009CBB 70%, #F18225 70%)',
+        'dark-custom-gradient': 'linear-gradient(135deg, #096784 70%, #3E97B0 70%)',
       },
       keyframes: {
         "accordion-down": {

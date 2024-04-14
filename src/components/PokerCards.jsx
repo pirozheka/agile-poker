@@ -3,14 +3,26 @@ const PokerCards = () => {
     
     return (
       <div className="flex justify-around container place-content-center mt-20 pb-28">
-          <PokerCard 
+          <div className='ml-0 block dark:hidden'>
+            <PokerCard 
             key='1'
             img = '/img/slide01.svg'
             title='Начни игру'
             descr={`либо зарегистрируйся,\n чтобы сохранить оценки`}
             width={234}
             height={200}          
+        /></div>
+        <div className='ml-0 hidden dark:block'>
+        <PokerCard 
+            key='1'
+            img = '/img/slide01_dark.svg'
+            title='Начни игру'
+            descr={`либо зарегистрируйся,\n чтобы сохранить оценки`}
+            width={234}
+            height={200}          
         />
+        </div>
+        <div className='ml-0 block dark:hidden'>
         <PokerCard 
             key='2'
             img = '/img/slide02.svg'
@@ -18,7 +30,18 @@ const PokerCards = () => {
             descr={`удобным способом \n в одно нажатие`}   
             width={234}
             height={200}       
+        /></div>
+        <div className='ml-0 hidden dark:block'>
+        <PokerCard 
+            key='2'
+            img = '/img/slide02_dark.svg'
+            title='Пригласи команду'
+            descr={`удобным способом \n в одно нажатие`}   
+            width={234}
+            height={200}       
         />
+        </div>
+        <div className='ml-0 block dark:hidden'>
         <PokerCard 
             key='3'
             img = '/img/slide03.svg'
@@ -26,7 +49,17 @@ const PokerCards = () => {
             descr={`будь продуктивным,\n обсуждай`}   
             width={234}
             height={200}       
+        /></div>
+        <div className='ml-0 hidden dark:block'>
+        <PokerCard 
+            key='3'
+            img = '/img/slide03_dark.svg'
+            title='Голосуй'
+            descr={`будь продуктивным,\n обсуждай`}   
+            width={234}
+            height={200}       
         />
+        </div>
       </div>
     );
   };
