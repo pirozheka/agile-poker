@@ -30,6 +30,7 @@ module.exports = {
         btnHover: 'rgb(247, 169, 104)',
         darkThemeBg: '#273a45',
         darkThemeText: '#E7ECF1',
+        divider: '#E2E8F0',
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
