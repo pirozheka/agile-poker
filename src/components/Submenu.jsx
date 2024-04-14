@@ -2,12 +2,14 @@ import MenuCard from "./MenuCard";
 
 const Submenu = () => {
   return (
-    <div className="flex justify-between mt-36 container">
-        <div className='pr-52 text-2xl text-mainText dark:text-darkThemeText'>
+    <div className="flex justify-between mt-32 container">
+        <div className='ml-4 mt-4 text-2xl tracking-wide text-mainText dark:text-darkThemeText'>
             Ваши предыдущие оценки:
         </div>
-        <MenuCard />
-        <MenuCard />
+        <div className="flex gap-6">
+          <MenuCard />
+          <MenuCard />
+        </div>
     </div>
   );
 };

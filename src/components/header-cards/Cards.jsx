@@ -76,13 +76,13 @@ useGSAP(() => {
     const tl = gsap.timeline({
       onStart: function() {
         // Делаем элемент видимым в начале анимации
-        gsap.set(".hand-02", { visibility: "visible" });
+        gsap.set(".hand-02", { visibility: "visible", top: '-700px'});
       }
     });
 
     // Анимация появления
     tl.from(".hand-02", {
-      y: -850,
+      y: -700,
       opacity: 1,
       duration: 1.5,
       delay: 1.3
@@ -93,6 +93,7 @@ useGSAP(() => {
       y: -700,
       opacity: 1,
       duration: 1.6,
+      visibility: 'visible',
 
     });
   }, { scope: container });
