@@ -28,7 +28,13 @@ const Header = () => {
               src="/img/zt-poker-logo-3.svg" 
               width={64}
               height={64}
-              className='ml-0 ' 
+              className='ml-0 block dark:hidden' 
+            />
+            <img
+              src="/img/dark-poker-logo.svg" 
+              width={64}
+              height={64}
+              className='ml-0 hidden dark:block' 
             />
           </Link>
           <div className='flex justify-between items-center gap-3'>

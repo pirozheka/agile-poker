@@ -28,6 +28,8 @@ module.exports = {
         secondary: '#F18225',
         mainText: 'rgb(43, 69, 84)',
         btnHover: 'rgb(247, 169, 104)',
+        darkThemeBg: '#273a45',
+        darkThemeText: '#E7ECF1',
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
@@ -49,6 +51,10 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      width: {
+        '421': '421px',
+      },
+
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",

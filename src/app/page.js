@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-between mx-auto overflow-hidden">
+    <main className="flex flex-col justify-between mx-auto overflow-hidden dark:bg-darkThemeBg">
       <Header/>
       <Hero />
       <Submenu />
