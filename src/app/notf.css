@@ -1,0 +1,139 @@
+.submenu3_1 {
+    top:90px;
+    display: grid;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    }
+
+.im_er_0 {
+    position: absolute;
+        opacity: 1;
+        width: 100%;
+        padding: 0;
+        transform: rotate(-7deg);
+        z-index:1;}
+    
+    .im_er_1 {
+    position: absolute;
+    animation: move1 2s linear infinite;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    top: 160px;
+    left: 550px;
+    padding: 0;
+    z-index:2;
+    }
+    
+    @keyframes move1 {
+    0% {
+    transform: rotate(10deg);
+    top: 170px;
+    left: 534px;
+    opacity:1;}
+    50% {
+    transform: rotate(3deg);
+    top: 166px;
+    left: 550px;
+    opacity:1;}
+    100% {
+    top: 170px;
+    left: 534px;
+    transform: rotate(10deg);
+    opacity:1;}
+    }
+    .im_er_2 {
+    position: absolute;
+    opacity: 1;
+    top: 140px;
+    left: 760px;
+    padding: 0;
+    transform: rotate(-3deg);
+    z-index:2;
+    }
+    
+    @keyframes move2 {
+    0% {
+    transform: rotate(-3deg);
+    left: 850px;
+    top: 140px;
+    opacity:1;}
+    50% {
+    transform: rotate(0deg);
+    left: 844px;
+    top: 137px;
+    opacity:1;}
+    100% {
+    transform: rotate(-3deg);
+    opacity:1;}
+        }
+    
+    .im_er_3 {
+    position: absolute;
+    opacity: 1;
+    top: 145px;
+    left: -260px;
+    width: 100%;
+    transform: rotate(-2deg);
+    padding: 0;
+    z-index:3;}
+    
+    .im_er_4 {
+    position: absolute;
+    opacity: 1;
+    left: -70px;
+    top: 130px;
+    width: 100%;
+    transform: rotate(-2deg);
+    padding: 0;
+    z-index:3;}
+    
+    .im_er_5 {
+    position: absolute;
+    opacity: 1;
+    left: 50px;
+    top: 115px;
+    width: 100%;
+    transform: rotate(-9deg);
+    padding: 0;
+    z-index:3;}
+    
+    .im_er_6 {
+    position: absolute;
+    opacity: 1;
+    left: 120px;
+    top: 105px;
+    width: 100%;
+    transform: rotate(-2deg);
+    padding: 0;
+    z-index:3;}
+    
+    .im_er_7 {
+    position: absolute;
+    animation: move7 2s linear infinite;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    top: 40px;
+    left: 850px;
+    padding: 0;
+    z-index:2;
+    }
+    
+    @keyframes move7 {
+    0% {
+    transform: rotate(0deg);
+    left: 954px;
+    top: 120px;
+    opacity:1;}
+    50% {
+    transform: rotate(-3deg);
+    left: 960px;
+    top: 116px;
+    opacity:1;}
+    100% {
+    top: 120px;
+    left: 954px;
+    transform: rotate(0deg);
+    opacity:1;}
+    }
