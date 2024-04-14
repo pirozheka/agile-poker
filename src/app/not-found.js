@@ -1,19 +1,11 @@
 import Link from 'next/link'
-import './notf.css'
 
 export default function NotFound() {
     return (
-        <div class="submenu3_1 container">
-            <div><h2>Ошибка 404</h2></div>
-            <div class="im_er_0"><img src="/img/веревка.svg" alt=""></img></div>
-            <div class="im_er_1"><img src="/img/карта_лицо_4.svg" alt=""></img></div>
-            <div class="im_er_2"><img src="/img/карта_лицо_0.svg" alt=""></img></div>
-            <div class="im_er_3"><img src="/img/прищепка_ор.svg" alt=""></img></div>
-            <div class="im_er_4"><img src="/img/прищепка_сер.svg" alt=""></img></div>
-            <div class="im_er_5"><img src="/img/прищепка_сер.svg" alt=""></img></div>
-            <div class="im_er_6"><img src="/img/прищепка_ор.svg" alt=""></img></div>
-            <div class="im_er_7"><img src="/img/карта_лицо_4.svg" alt=""></img></div>
-            <div><h4>Страница не найдена</h4></div>
+        <div className="bg-white h-screen">
+        <div className="bg-white container mt-auto">
+            <video src='/img/notfound.mp4' autoPlay></video>
+        </div>
         </div>
     )
 }
