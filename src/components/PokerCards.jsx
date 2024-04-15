@@ -6,7 +6,7 @@ const PokerCards = () => {
           <div className='ml-0 block dark:hidden'>
             <PokerCard 
             key='1'
-            img = '/img/slide01.svg'
+            img = '/img/slide_01.svg'
             title='Начни игру'
             descr={`либо зарегистрируйся,\n чтобы сохранить оценки`}
             width={234}
