@@ -2,7 +2,7 @@ import PokerCard from "./poker-cards/PokerCard";
 const PokerCards = () => {
     
     return (
-      <div className="flex justify-around tracking-wide container place-content-center mt-20 pb-28">
+      <div className="flex flex-col tablet:flex-row justify-around tracking-wide container place-content-center align-center mt-4 tablet:mt-10 laptop:mt-20 pb-5 tablet:pb-24 laptop:pb-44">
           <div className='ml-0 block dark:hidden'>
             <PokerCard 
             key='1'

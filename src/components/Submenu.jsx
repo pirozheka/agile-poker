@@ -2,7 +2,7 @@ import MenuCard from "./MenuCard";
 
 const Submenu = () => {
   return (
-    <div className="flex justify-between mt-32 container">
+    <div className=" justify-between mt-32 container hidden tablet:flex">
         <div className='ml-4 mt-4 text-2xl tracking-wide text-mainText dark:text-darkThemeText'>
             Ваши предыдущие оценки:
         </div>
