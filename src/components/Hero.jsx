@@ -13,7 +13,7 @@ const Hero = () => {
         <div className='w-screen mt-9 h-64 overflow-hidden tablet:hidden'>
           <img src="/img/comp_screen_1_mob_light.svg" alt="" className="w-full h-full transform translate-x-14 translate-y-4 scale-125" />
         </div>
-        <div className="flex flex-col w-80 content-center justify-between laptop:max-w-md mt-12 laptop:mt-20 pb-20 tablet:pb-0">
+        <div className="flex flex-col w-80 laptop:max-w-md mt-12 laptop:mt-20 pb-20 tablet:pb-0">
           <Button className="bg-secondary dark:bg-darkbutton text-sm w-full laptop:text-[28px] font-medium text-white m-auto laptop:w-421 h-12 laptop:h-24 rounded-lg laptop:rounded-3xl hover:bg-btnHover dark:hover:bg-darkBtnHover dark:text-darkButtonText ">Быстрая игра</Button>
           <div className="flex flex-row justify-between laptop:gap-2 -ml-3 tablet:ml-0 mt-6 laptop:mt-9">
             <Button className="text-main tracking-wide dark:text-darkThemeText text-sm laptop:text-2xl hover:underline hover:text-decoration-solid">Зарегистрироваться</Button>
