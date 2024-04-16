@@ -183,18 +183,18 @@
     @keyframes move7 {
     0% {
     top: -280px;
-    left: 100px;
+    left: -100px;
     transform: rotate(-100deg);
     opacity:1;}
     50% {
     top: -100px;
-    left: 120px;
+    left: -80px;
     transform: rotate(-70deg);
     opacity:1;
     }
     100% {
     top: -280px;
-    left: 100px;
+    left: -100px;
     transform: rotate(-100deg);
     opacity:1;}
     }

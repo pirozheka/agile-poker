@@ -25,7 +25,7 @@ const AbouCards = () => {
             <div className="im7_6">
                 <img src="/img/карта_команда3-6.svg" alt="" className='ml-0 block dark:hidden'></img>
                 <img src="/img/карта_команда3-6_dark.svg" alt="" className='ml-0 hidden dark:block'></img></div>
-            <div className="im7_7"><img src="/img/vectorpaint_01.svg" alt=""></img></div>
+            <div className="im7_7"><img src="/img/рука1_группа_лев.svg" alt=""></img></div>
         </div>
     );
 };
