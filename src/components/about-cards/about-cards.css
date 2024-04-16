@@ -182,19 +182,19 @@
     }
     @keyframes move7 {
     0% {
-    top: -320px;
-    left: 30px;
+    top: -280px;
+    left: -100px;
     transform: rotate(-100deg);
     opacity:1;}
     50% {
-    top: -130px;
-    left: 90px;
-    transform: rotate(-60deg);
+    top: -100px;
+    left: -80px;
+    transform: rotate(-70deg);
     opacity:1;
     }
     100% {
-    top: -320px;
-    left: 30px;
+    top: -280px;
+    left: -100px;
     transform: rotate(-100deg);
     opacity:1;}
     }

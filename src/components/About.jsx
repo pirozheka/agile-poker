@@ -17,8 +17,10 @@ const About = () => {
           <div className="flex gap-14 pb-24 mt-12">
             <Button className="text-main text-xl tracking-wide pl-0 hover:underline hover:text-decoration-solid dark:text-darkThemeText">Почитать о нашей команде</Button>
             <div className="h-10 w-0.5 bg-divider dark:bg-darkThemeText"></div>
-            {/* Здесь нужно добавить белый самолет для темной темы */ }
-            <Button className="text-main text-xl pr-0 tracking-wide hover:underline hover:text-decoration-solid dark:text-darkThemeText">Написать нам <img className="ml-5" src="/icons/send.svg"></img></Button>
+            <Button className="text-main text-xl pr-0 tracking-wide hover:underline hover:text-decoration-solid dark:text-darkThemeText">Написать нам 
+            <div className='ml-0 block dark:hidden'><img className="ml-5" src="/icons/send.svg"></img></div>
+            <div className='ml-0 hidden dark:block'><img className="ml-5" src="/icons/send_dark.svg"></img></div>
+            </Button>
           </div>
 
         </div>
