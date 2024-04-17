@@ -7,6 +7,7 @@ import About from "@/components/About";
 import Footer from "@/components/Footer";
 import React, { useState, useEffect } from 'react';
 import Loader from "./loader";
+import Tabbar from "@/components/Tabbar";
 
 
 
@@ -31,6 +32,7 @@ export default function Home() {
         <HeroContainer />
         <About />
         <Footer />
+        <Tabbar />
       </main>
       )}
     </div>

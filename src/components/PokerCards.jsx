@@ -18,8 +18,8 @@ const PokerCards = () => {
             img = '/img/slide01_dark.svg'
             title='Начни игру'
             descr={`либо зарегистрируйся,\n чтобы сохранить оценки`}
-            width={234}
-            height={200}          
+            width={108}
+            height={88}          
         />
         </div>
         <div className='ml-0 block dark:hidden'>
