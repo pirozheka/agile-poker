@@ -43,8 +43,8 @@
 .hand-02 {
   position: absolute;
   transform: rotate(5deg);
-  right: 21%;
-  top: -470px;
+  right: 18%;
+  top: -450px;
   visibility: hidden;
   z-index: 4;
 }
@@ -84,5 +84,25 @@
   to {
     transform: rotate(5deg) translateY(-300px);
     opacity: 0;
+  }
+}
+
+@media screen and (max-width:880px) {
+  .im3 {
+    top: 1%;
+    left: 67%;
+  }
+  .im4 {
+    right: 5%;
+  }
+
+  .im2 {
+    right: 5%;
+  }
+
+  .hand-02 {
+    right: 18%;
+    top: 0;
+    visibility: hidden
   }
 }

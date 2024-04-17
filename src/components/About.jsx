@@ -1,5 +1,7 @@
 import { Button } from "./ui/button";
 import AboutCards from "./about-cards/AboutCards";
+import ScrollSlider from "./ScrollSlider";
+
 
 const About = () => {
   return (
@@ -12,17 +14,16 @@ const About = () => {
         <h2 className="text-mainText tracking-wider font-semibold text-[40px] dark:text-darkThemeText">О наc</h2>
           <p className='mt-10'>Привет! Мы надеемся, вам понравится наш продукт!</p>
           <p>Мы хотели сделать что-то удобное, так как сами работаем в командах <br /> и понимаем, с какими противоречиями можно столкнуться </p>
-          <p>Скоро мы добавим много новых фич и возможность подписки </p>
-          <p>Будем рады услышать ваши впечатления и пожелания в нашем ТГ))) </p>
+          <p>Скоро мы добавим много новых фич и возможность подписки. </p>
+          <ScrollSlider />
           <div className="flex gap-14 pb-24 mt-12">
-            <Button className="text-main text-xl tracking-wide pl-0 hover:underline hover:text-decoration-solid dark:text-darkThemeText">Почитать о нашей команде</Button>
+            <Button className="hidden tablet:block text-main text-xl tracking-wide pl-0 hover:underline hover:text-decoration-solid dark:text-darkThemeText">Подробнее о команде</Button>
+            <Button className="block tablet:hidden text-main text-xl tracking-wide pl-0 hover:underline hover:text-decoration-solid dark:text-darkThemeText">Почитать о нашей команде</Button>
             <div className="h-10 w-0.5 bg-divider dark:bg-darkThemeText"></div>
             <Button className="text-main text-xl pr-0 tracking-wide hover:underline hover:text-decoration-solid dark:text-darkThemeText">Написать нам 
-            <div className='ml-0 block dark:hidden'><img className="ml-5" src="/icons/send.svg"></img></div>
-            <div className='ml-0 hidden dark:block'><img className="ml-5" src="/icons/send_dark.svg"></img></div>
+            <div className='hidden tablet:block ml-0 '><img className="ml-5 dark:hidden" src="/icons/send.svg"></img><img className="ml-5 hidden dark:block" src="/icons/send_dark.svg"></img></div>
             </Button>
           </div>
-
         </div>
 
       </div>

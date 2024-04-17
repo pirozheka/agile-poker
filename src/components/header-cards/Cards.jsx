@@ -99,7 +99,8 @@ useGSAP(() => {
   }, { scope: container });
 
   return (
-    <div ref={container} className='hidden tablet:block'>
+    <>
+    <div ref={container} className='hidden laptop:block'>
       <div className='ml-0 block dark:hidden'><Image src="/img/card-off.svg" alt="" className='im1 rotate9' width={184} height={276} /></div>
       <div className='ml-0 hidden dark:block'><Image src="/img/карта_рубашка_dark.svg" alt="" className='im1 rotate9' width={184} height={276} /></div>
       <div className='ml-0 block dark:hidden'><Image src="/img/card-off.svg" alt="" className="im2 rotate7" width={184} height={276} /></div>
@@ -110,7 +111,8 @@ useGSAP(() => {
       <div className='ml-0 hidden dark:block'><Image src="/img/карта_лицо2_dark.svg" alt="" className="im4" width={184} height={102} /></div>
       <Image src="/img/hand-frame01.svg" alt="" className="hand-01" width={134} height={528} />
       <Image src="/img/hand-frame02.svg" alt="" className="hand-02" width={118} height={505} />
-    </div>
+    </div>  
+  </>
   );
 };
 
