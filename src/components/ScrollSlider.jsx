@@ -5,8 +5,8 @@ import Image from "next/image";
 const ScrollSlider = () => {
     return (
       <div className=" tablet:hidden">
-        <ScrollArea className="w-96 whitespace-nowrap ">
-            <div className="flex w-max space-x-2 mt-7 p-4"> 
+        <ScrollArea className="w-80 whitespace-nowrap ">
+            <div className="flex min-w-1 space-x-2 mt-7 p-2"> 
                 <Image src="/img/scrollcard1.svg" width={159} height={108}/>
                 <Image src="/img/scrollcard2.svg" width={159} height={108}/>
                 <Image src="/img/scrollcard3.svg" width={159} height={108}/>
