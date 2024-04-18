@@ -33,6 +33,9 @@ module.exports = {
         darkButtonText: '#3E97B0',
         darkThemeBg: '#273a45',
         darkThemeText: '#E7ECF1',
+        diaOverlay:'#4C7B96',
+        darkDiaOverlay:'#172228',
+        diaBorder: 'rgb(226, 232, 240)',
         darkBtnHover: '#C9D6DD',
         divider: '#E2E8F0',
         destructive: {
