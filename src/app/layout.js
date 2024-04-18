@@ -11,9 +11,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ru">
-      <meta property="og:title" content={metadata.title} />
-      <meta property="og:description" content={metadata.description} />
-      <meta property="og:image" content='/img/badge.png' />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Agile Poker" />
+      <meta property="og:description" content="Покер-планирование для Agile команд" />
+      <meta property="og:url" content="https://agile-poker-ten.vercel.app/" />
+      <meta property="og:image" content="https://agile-poker-ten.vercel.app/img/badge.png" />
+      <meta property="og:site_name" content="Agile Poker" />
+      <meta property="og:locale" content="ru_RU" />
       <body className={inter.className}>{children}</body>
     </html>
   );
