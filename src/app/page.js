@@ -8,7 +8,6 @@ import Footer from "@/components/Footer";
 import React, { useState, useEffect } from 'react';
 import Loader from "./loader";
 import Tabbar from "@/components/Tabbar";
-import MetaTags from "./MetaTags";
 
 
 
@@ -26,11 +25,6 @@ export default function Home() {
 
   return (
     <div>
-      <MetaTags
-        title="Agile Poker"
-        description="Покер планирование для Agile-команд"
-        image='/img/badge.png'
-      />
       {loading ? <Loader /> : (
         <main className="flex flex-col justify-between mx-auto overflow-hidden dark:bg-darkThemeBg">
           <Header />
