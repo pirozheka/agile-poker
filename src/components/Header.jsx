@@ -21,20 +21,16 @@ const Header = () => {
 
 
   return (
-    <header className='container border-b-2 rounded-2xl border-mainText tablet:border-none'> 
+    <header className='container border-b-2 rounded-xl border-mainText tablet:border-none border-solid'> 
         <nav className='flex justify-between items-center mt-3 tablet:mt-6 laptop:mt-8'>
           <Link href="/">
             <img
               src="/img/zt-poker-logo-3.svg" 
-              width={64}
-              height={64}
-              className='ml-0 block dark:hidden' 
-            />
+              className='ml-0 block dark:hidden w-12 tablet:w-14 laptop:w-16' 
+            ></img>
             <img
               src="/img/dark-poker-logo.svg" 
-              width={64}
-              height={64}
-              className='ml-0 hidden dark:block' 
+              className='ml-0 hidden dark:block w-12 tablet:w-14 laptop:w-16' 
             />
           </Link>
           <div className='flex justify-between items-center gap-3'>
