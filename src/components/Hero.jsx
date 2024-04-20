@@ -14,7 +14,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-
+import Link from 'next/link'
 
 const Hero = () => {
 
@@ -28,10 +28,12 @@ const Hero = () => {
           <li className="text-lg laptop:text-[28px] font-light tablet:font-normal tracking-wide list-disc text-mainText dark:text-darkThemeText">Без разногласий в команде</li>
         </ul>
 
-        <img src="/img/comp_screen_1_mob_light.svg" alt="" className="w-screen mt-2 h-64 overflow-hidden tablet:hidden transform translate-x-20 translate-y-5 scale-150" />
+        <div className='ml-0 block dark:hidden'><img src="/img/comp_screen_1_mob_light.svg" alt="" className="w-screen mt-2 h-64 overflow-hidden tablet:hidden transform translate-x-20 translate-y-5 scale-150" /></div>
+        <div className='ml-0 hidden dark:block'><img src="/img/comp_screen_1_mob_dark.svg" alt="" className="w-screen mt-2 h-64 overflow-hidden tablet:hidden transform translate-x-20 translate-y-5 scale-150" /></div>
 
         <div className="flex flex-col w-12/12 laptop:max-w-md mt-12 tablet:mt-16 laptop:mt-20 pb-20 tablet:pb-0">
-          <Button className="bg-secondary dark:bg-darkbutton text-sm w-full tablet:w-80 tablet:text-[20px] laptop:text-[28px] font-medium text-white m-auto tablet:ml-0 laptop:m-auto laptop:w-421 h-12 tablet:h-14 laptop:h-24 rounded-xl tablet:rounded-2xl laptop:rounded-3xl hover:bg-btnHover dark:hover:bg-darkBtnHover dark:text-darkButtonText ">Быстрая игра</Button>
+        <Link href="/not-found" passHref><Button className=" bg-secondary dark:bg-darkbutton text-sm w-full tablet:w-80 tablet:text-[20px] laptop:text-[28px] font-medium text-white m-auto tablet:ml-0 laptop:m-auto laptop:w-421 h-12 tablet:h-14 laptop:h-24 rounded-xl tablet:rounded-2xl laptop:rounded-3xl hover:bg-btnHover dark:hover:bg-darkBtnHover dark:text-darkButtonText ">Быстрая игра</Button></Link>
+    
 
           <div className="flex flex-row w-full tablet:w-80 pt-0 justify-between gap-0 laptop:gap-2 mt-6 tablet:mt-4 laptop:mt-9 p-1">
             <Dialog className='p-[24px] w-80 '>

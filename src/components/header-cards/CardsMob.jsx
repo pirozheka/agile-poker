@@ -109,8 +109,10 @@ const CardsMob = () => {
                 <div className='ml-0 hidden dark:block'><Image src="/img/карта_лицо1_dark.svg" alt="" width={130} height={195} className='im3' /></div>
                 <div className='ml-0 block dark:hidden'><Image src="/img/card01.svg" alt="" className="im4" width={130} height={80} /></div>
                 <div className='ml-0 hidden dark:block'><Image src="/img/карта_лицо2_dark.svg" alt="" className="im4" width={130} height={80} /></div>
-                <Image src="/img/hand-frame01.svg" alt="" className="hand-01" width={85} height={233} />
-                <Image src="/img/hand-frame02.svg" alt="" className="hand-02" width={85} height={355} />
+                <div className='ml-0 block dark:hidden'><Image src="/img/hand-frame01.svg" alt="" className="hand-01" width={85} height={233} /></div>
+                <div className='ml-0 hidden dark:block'><Image src="/img/рука2_группа_в_фрейме_dark.svg" alt="" className="hand-01" width={85} height={233} /></div>
+                <div className='ml-0 block dark:hidden'><Image src="/img/hand-frame02.svg" alt="" className="hand-02" width={85} height={355} /></div>
+                <div className='ml-0 hidden dark:block'><Image src="/img/рука1_группа_в_фрейме_dark.svg" alt="" className="hand-02" width={85} height={355} /></div>
             </div>
         </>
     );

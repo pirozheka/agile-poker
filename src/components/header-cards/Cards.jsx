@@ -109,8 +109,10 @@ useGSAP(() => {
       <div className='ml-0 hidden dark:block'><Image src="/img/карта_лицо1_dark.svg" alt="" width={184} height={276} className='im3' /></div>
       <div className='ml-0 block dark:hidden'><Image src="/img/card01.svg" alt="" className="im4" width={185} height={100} /></div>
       <div className='ml-0 hidden dark:block'><Image src="/img/карта_лицо2_dark.svg" alt="" className="im4" width={184} height={102} /></div>
-      <Image src="/img/hand-frame01.svg" alt="" className="hand-01" width={134} height={528} />
-      <Image src="/img/hand-frame02.svg" alt="" className="hand-02" width={118} height={505} />
+      <div className='ml-0 block dark:hidden'><Image src="/img/hand-frame01.svg" alt="" className="hand-01" width={134} height={528} /></div>
+      <div className='ml-0 hidden dark:block'><Image src="/img/рука2_группа_в_фрейме_dark.svg" alt="" className="hand-01" width={134} height={528} /></div>
+      <div className='ml-0 block dark:hidden'><Image src="/img/hand-frame02.svg" alt="" className="hand-02" width={118} height={505} /></div>
+      <div className='ml-0 hidden dark:block'><Image src="/img/рука1_группа_в_фрейме_dark.svg" alt="" className="hand-02" width={118} height={505} /></div>
     </div>  
   </>
   );
