@@ -33,6 +33,7 @@ const Hero = () => {
 
         <div className="flex flex-col w-12/12 laptop:max-w-md mt-12 tablet:mt-16 laptop:mt-20 pb-20 tablet:pb-0">
         <Link href="/not-found" passHref><Button className=" bg-secondary dark:bg-darkbutton text-sm w-full tablet:w-80 tablet:text-[20px] laptop:text-[28px] font-medium text-white m-auto tablet:ml-0 laptop:m-auto laptop:w-421 h-12 tablet:h-14 laptop:h-24 rounded-xl tablet:rounded-2xl laptop:rounded-3xl hover:bg-btnHover dark:hover:bg-darkBtnHover dark:text-darkButtonText ">Быстрая игра</Button></Link>
+    
 
           <div className="flex flex-row w-full tablet:w-80 pt-0 justify-between gap-0 laptop:gap-2 mt-6 tablet:mt-4 laptop:mt-9 p-1">
             <Dialog className='p-[24px] w-80 '>

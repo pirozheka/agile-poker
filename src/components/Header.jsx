@@ -5,11 +5,17 @@ import { Switch } from "@/components/ui/switch";
 import React, { useState, useEffect } from 'react';
 
 const Header = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(
+    localStorage.getItem('isDarkMode') === 'true' // преобразуем строку в булево значение
+  );
 
   const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
+    const newDarkMode = !isDarkMode;
+    setIsDarkMode(newDarkMode);
+    localStorage.setItem('isDarkMode', newDarkMode);
   };
+
+ 
 
   useEffect(() => {
     if (isDarkMode) {
