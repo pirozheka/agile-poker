@@ -1,4 +1,5 @@
 'use client'
+//Уменьшенные варианты карточек для планшетной версии, изменены сами карточки и координаты
 import { useRef } from "react";
 
 import gsap from "gsap"; // <-- import GSAP

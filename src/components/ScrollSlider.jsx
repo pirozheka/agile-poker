@@ -3,6 +3,7 @@ import Image from "next/image";
 
 
 const ScrollSlider = () => {
+
     return (
       <div className=" tablet:hidden">
         <ScrollArea className="w-96 whitespace-nowrap ">

@@ -2,15 +2,15 @@ const MenuCard = ({ title = 'Очень длинное название зада
 
   const data = [
     {
-      title:'Отрисовать UI-kit',
+      title: 'Отрисовать UI-kit',
       taskDate: '02.04.2024'
     },
     {
-      title:'Настроить отправку формы',
+      title: 'Настроить отправку формы',
       taskDate: '15.04.2024'
     }
   ]
-  
+
   return (
     <>
       {data.map((item, index) => (

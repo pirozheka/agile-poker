@@ -4,11 +4,12 @@
     transform: rotate(0deg);
     width: 200%;
     top: 200 px;
-        left: 0px;
-        padding: 0;
-        z-index:1;
-    }
-    .im7_1 {
+    left: 0px;
+    padding: 0;
+    z-index: 1;
+}
+
+.im7_1 {
     position: absolute;
     animation: move1 9s linear infinite;
     animation-fill-mode: forwards;
@@ -16,158 +17,212 @@
     top: 0px;
     left: 125px;
     padding: 0;
-    z-index:8;
-    }
-    @keyframes move1 {
-   0% {
-    top: 0px;
-    opacity:1;
-    z-index:2}
-    16.7% {
-    top: 0px;
-    opacity:1;
-    z-index:8}
-    33.4% {
-    top: 550px;
-    opacity:1;
-    z-index:8;}
-    100% {
-    top: 550px;
-    opacity:1;
-    z-index:2;}
-    }
-    .im7_2 {
-    position: absolute;
-        animation: move2 9s linear infinite;
-        animation-fill-mode: forwards;
-        animation-delay: 1.5s;
-        opacity: 0;
-        width: 100%;
-        top: 0 px;
-        left: 125px;
-        padding: 0;
-        z-index:7;
-    }
-    @keyframes move2 {
-   0% {
-    top: 0px;
-    opacity:1;}
-    16.7% {
-    top: 0px;
-    opacity:1;}
-    33.4% {
-    top: 550px;
-    opacity:1;}
-    100% {
-    top: 550px;
-    opacity:1;}
-    }
-    .im7_3 {
-    position: absolute;
-        animation: move3 9s linear infinite;
-        animation-fill-mode: forwards;
-        animation-delay: 3s;
-        opacity: 0;
-        width: 100%;
-        top: 0px;
-        left: 125px;
-        padding: 0;
-        z-index:6;
-    }
-    @keyframes move3 {
-   0% {
-    top: 0px;
-    opacity:1;}
-    16.7% {
-    top: 0px;
-    opacity:1;}
-    33.4% {
-    top: 550px;
-    opacity:1;}
-    100% {
-    top: 550px;
-    opacity:1;}
-    }
-    
-    .im7_4 {
-    position: absolute;
-        animation: move4 9s linear infinite;
-        animation-fill-mode: forwards;
-        animation-delay: 4.5s;
-        opacity: 0;
-        width: 100%;
-        top: 0px;
-        left: 125px;
-        padding: 0;
-        z-index:5;
-    }
-    @keyframes move4 {
+    z-index: 8;
+}
+
+@keyframes move1 {
     0% {
-    top: 0px;
-    opacity:1;}
-    16.7% {
-    top: 0px;
-    opacity:1;}
-    33.4% {
-    top: 550px;
-    opacity:1;}
-    100% {
-    top: 550px;
-    opacity:1;}
-    }
-    .im7_5 {
-    position: absolute;
-        animation: move5 9s linear infinite;
-        animation-fill-mode: forwards;
-        animation-delay: 6s;
-        opacity: 0;
-        width: 100%;
         top: 0px;
-        left: 125px;;
-        padding: 0;
-        z-index:4;
+        opacity: 1;
+        z-index: 2
     }
-    @keyframes move5 {
-    0% {
-    top: 0px;
-    opacity:1;}
+
     16.7% {
-    top: 0px;
-    opacity:1;}
-    33.4% {
-    top: 550px;
-    opacity:1;}
-    100% {
-    top: 550px;
-    opacity:1;}
-    }
-    .im7_6 {
-    position: absolute;
-        animation: move6 9s linear infinite;
-        animation-fill-mode: forwards;
-        animation-delay: 7.5s;
-        opacity: 0;
-        width: 100%;
         top: 0px;
-        left: 125px;
-        padding: 0;
-        z-index:3;
+        opacity: 1;
+        z-index: 8
     }
-    @keyframes move6 {
-    0% {
-    top: 0px;
-    opacity:1;}
-    16.7% {
-    top: 0px;
-    opacity:1;}
+
     33.4% {
-    top: 550px;
-    opacity:1;}
-    100% {
-    top: 550px;
-    opacity:1;}
+        top: 550px;
+        opacity: 1;
+        z-index: 8;
     }
-    .im7_7 {
+
+    100% {
+        top: 550px;
+        opacity: 1;
+        z-index: 2;
+    }
+}
+
+.im7_2 {
+    position: absolute;
+    animation: move2 9s linear infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+    width: 100%;
+    top: 0 px;
+    left: 125px;
+    padding: 0;
+    z-index: 7;
+}
+
+@keyframes move2 {
+    0% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    16.7% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    33.4% {
+        top: 550px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 550px;
+        opacity: 1;
+    }
+}
+
+.im7_3 {
+    position: absolute;
+    animation: move3 9s linear infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    opacity: 0;
+    width: 100%;
+    top: 0px;
+    left: 125px;
+    padding: 0;
+    z-index: 6;
+}
+
+@keyframes move3 {
+    0% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    16.7% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    33.4% {
+        top: 550px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 550px;
+        opacity: 1;
+    }
+}
+
+.im7_4 {
+    position: absolute;
+    animation: move4 9s linear infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 4.5s;
+    opacity: 0;
+    width: 100%;
+    top: 0px;
+    left: 125px;
+    padding: 0;
+    z-index: 5;
+}
+
+@keyframes move4 {
+    0% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    16.7% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    33.4% {
+        top: 550px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 550px;
+        opacity: 1;
+    }
+}
+
+.im7_5 {
+    position: absolute;
+    animation: move5 9s linear infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    opacity: 0;
+    width: 100%;
+    top: 0px;
+    left: 125px;
+    ;
+    padding: 0;
+    z-index: 4;
+}
+
+@keyframes move5 {
+    0% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    16.7% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    33.4% {
+        top: 550px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 550px;
+        opacity: 1;
+    }
+}
+
+.im7_6 {
+    position: absolute;
+    animation: move6 9s linear infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 7.5s;
+    opacity: 0;
+    width: 100%;
+    top: 0px;
+    left: 125px;
+    padding: 0;
+    z-index: 3;
+}
+
+@keyframes move6 {
+    0% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    16.7% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    33.4% {
+        top: 550px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 550px;
+        opacity: 1;
+    }
+}
+
+.im7_7 {
     position: absolute;
     animation: move7 1.5s linear infinite;
     animation-fill-mode: forwards;
@@ -178,23 +233,28 @@
     left: 50px;
     width: 30%;
     padding: 0;
-    z-index:8;
-    }
-    @keyframes move7 {
+    z-index: 8;
+}
+
+@keyframes move7 {
     0% {
-    top: -280px;
-    left: -100px;
-    transform: rotate(-100deg);
-    opacity:1;}
+        top: -280px;
+        left: -100px;
+        transform: rotate(-100deg);
+        opacity: 1;
+    }
+
     50% {
-    top: -100px;
-    left: -80px;
-    transform: rotate(-70deg);
-    opacity:1;
+        top: -100px;
+        left: -80px;
+        transform: rotate(-70deg);
+        opacity: 1;
     }
+
     100% {
-    top: -280px;
-    left: -100px;
-    transform: rotate(-100deg);
-    opacity:1;}
+        top: -280px;
+        left: -100px;
+        transform: rotate(-100deg);
+        opacity: 1;
     }
+}
