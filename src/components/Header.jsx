@@ -27,8 +27,8 @@ const Header = () => {
 
 
   return (
-    <header className='container border-b-2 rounded-xl border-mainText tablet:border-none border-solid'> 
-        <nav className='flex justify-between items-center mt-3 tablet:mt-6 laptop:mt-8'>
+    <header className='container fixed tablet:relative top-0 z-50 border-b-2 rounded-b-xl bg-background border-mainText tablet:border-none border-solid dark:bg-darkThemeBg'> 
+        <nav className='flex justify-between items-center mt-3 tablet:mt-6 laptop:mt-8  '>
           <Link href="/">
             <img
               src="/img/zt-poker-logo-3.svg" 
@@ -42,7 +42,8 @@ const Header = () => {
           <div className='flex justify-between items-center gap-3'>
             <Switch className="dark:bg-darkThemeText" id="dark-mode" checked={isDarkMode} onClick={toggleDarkMode}/>
             <Label htmlFor="dark-mode" className="hidden tablet:block">Темная тема</Label>
-            <Label htmlFor="dark-mode" className="tablet:hidden"><img src="/img/carbon_moon.svg" alt="" /></Label>
+            <Label htmlFor="dark-mode" className="tablet:hidden dark:hidden"><img src="/img/carbon_moon.svg" alt="" /></Label>
+            <Label htmlFor="dark-mode" className="hidden tablet:hidden dark:block tablet:dark:hidden"><img src="/img/dark_moon.svg" alt="" /></Label>
           </div>
         </nav>
     </header>

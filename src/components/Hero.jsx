@@ -21,7 +21,7 @@ const Hero = () => {
 
 
   return (
-    <div className="mt-8 tablet:mt-14 laptop:mt-28 flex justify-between relative container" >
+    <div className="mt-24 tablet:mt-14 laptop:mt-28 flex justify-between relative container" >
       <div>
         <h2 className="text-[28px] tablet:text-[38px] laptop:text-[56px] tracking-wide leading-9 tablet:leading-[46px] laptop:leading-[68px] font-semibold text-mainText dark:text-darkThemeText">Покер планирование <br />для Agile-команд</h2>
         <ul className="mt-2.5 tablet:mt-8 laptop:mt-10 pl-4 laptop:pl-8">
