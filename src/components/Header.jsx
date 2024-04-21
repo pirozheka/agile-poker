@@ -28,7 +28,7 @@ const Header = () => {
 
 
   return (
-    <header className='container fixed tablet:relative top-0 z-50 border-b-2 rounded-b-xl bg-background tablet:bg-transparent border-mainText tablet:border-none border-solid dark:bg-darkThemeBg'> 
+    <header className='container fixed tablet:relative top-0 z-50 border-b-2 rounded-b-xl bg-background tablet:bg-transparent border-mainText tablet:border-none border-solid dark:bg-darkThemeBg dark:tablet:bg-transparent'> 
         <nav className='flex justify-between items-center mt-3 tablet:mt-6 laptop:mt-8  '>
 
           {/* логотип */}
