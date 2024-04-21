@@ -12,7 +12,7 @@ const About = () => {
             <AboutCards />
           </div>
         </div>
-        <div className="tablet:pl-28 pl-0 tablet:ml-32 max-w-80 tablet:max-w-full  text-mainText tracking-wide font-normal text-xl  tablet:text-lg  mobile:font-thin dark:text-darkThemeText">
+        <div className="tablet:pl-28 pl-0 tablet:ml-32 max-w-80 tablet:max-w-full text-mainText tracking-wide font-normal text-xl  tablet:text-lg  mobile:font-thin dark:text-darkThemeText">
           <h2 className="text-mainText tracking-wider font-semibold text-xl text-[30px] lg:text-[40px] dark:text-darkThemeText">О наc</h2>
           <div className="tablet:text-lg text-sm tablet:hidden">
             <p className='mt-6'>Привет! Мы надеемся, вам понравится наш продукт!

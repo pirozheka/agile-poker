@@ -2,7 +2,7 @@ import PokerCard from "./poker-cards/PokerCard";
 const PokerCards = () => {
 
     return (
-        <div className="tablet:flex hidden tablet:justify-around tracking-wide container place-content-center align-center tablet:mt-8 laptop:mt-9 tablet:pb-24 laptop:pb-28">
+        <div className="tablet:flex hidden tablet:justify-around tracking-wide container place-content-center align-center tablet:mt-1 laptop:mt-1 tablet:pb-24 laptop:pb-36">
             <div className='ml-0 block dark:hidden'>
                 <PokerCard
                     key='1'
@@ -18,8 +18,8 @@ const PokerCards = () => {
                     img='/img/slide01_dark.svg'
                     title='Начни игру'
                     descr={`либо зарегистрируйся,\n чтобы сохранить оценки`}
-                    width={108}
-                    height={88}
+                    width={234}
+                    height={200}
                 />
             </div>
             <div className='ml-0 block dark:hidden'>

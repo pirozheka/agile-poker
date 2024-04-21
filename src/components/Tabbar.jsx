@@ -5,6 +5,7 @@ import { useState } from "react";
 
 const Tabbar = () => {
 
+  //реализация переключения табов через состояние
   const [activeTab, setActiveTab] = useState(1);
 
   return (

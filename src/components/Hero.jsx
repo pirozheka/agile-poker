@@ -37,6 +37,8 @@ const Hero = () => {
 
 
           <div className="flex flex-row w-full tablet:w-80 pt-0 justify-between gap-0 laptop:gap-2 mt-6 tablet:mt-4 laptop:mt-9 p-1">
+            
+             {/* Модальные окна регистрации и входа подвязаны к ссылкам под кнопкой "быстрая игра" */}
             <Dialog className='p-[24px] w-80 '>
               <DialogTrigger>
                 <Button className="text-main tracking-wide dark:text-darkThemeText text-sm pl-0 laptop:ml-2 tablet:text-base laptop:text-2xl hover:underline laptop:hover:text-decoration-solid">Зарегистрироваться</Button>
