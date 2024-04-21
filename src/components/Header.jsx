@@ -5,6 +5,7 @@ import { Switch } from "@/components/ui/switch";
 import React, { useState, useEffect } from 'react';
 
 const Header = () => {
+//сохранение выбранной темы в localstorage
   const [isDarkMode, setIsDarkMode] = useState(
     localStorage.getItem('isDarkMode') === 'true' // преобразуем строку в булево значение
   );
@@ -16,7 +17,7 @@ const Header = () => {
   };
 
  
-
+//переключение темной темы
   useEffect(() => {
     if (isDarkMode) {
       document.body.classList.add('dark');
@@ -27,8 +28,10 @@ const Header = () => {
 
 
   return (
-    <header className='container fixed tablet:relative top-0 z-50 border-b-2 rounded-b-xl bg-background border-mainText tablet:border-none border-solid dark:bg-darkThemeBg'> 
+    <header className='container fixed tablet:relative top-0 z-50 border-b-2 rounded-b-xl bg-background tablet:bg-transparent border-mainText tablet:border-none border-solid dark:bg-darkThemeBg'> 
         <nav className='flex justify-between items-center mt-3 tablet:mt-6 laptop:mt-8  '>
+
+          {/* логотип */}
           <Link href="/">
             <img
               src="/img/zt-poker-logo-3.svg" 
@@ -38,6 +41,7 @@ const Header = () => {
               src="/img/dark-poker-logo.svg" 
               className='ml-0 hidden dark:block w-12 tablet:w-14 laptop:w-16' 
             />
+          {/* переключатель темной темы из библиотеки Shadcn/UI*/}
           </Link>
           <div className='flex justify-between items-center gap-3'>
             <Switch className="dark:bg-darkThemeText" id="dark-mode" checked={isDarkMode} onClick={toggleDarkMode}/>

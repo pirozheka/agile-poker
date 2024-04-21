@@ -15,7 +15,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import Link from 'next/link';
-import React from "react"; 
+import React from "react";
 
 const Hero = () => {
 
@@ -33,8 +33,8 @@ const Hero = () => {
         <div className='ml-0 hidden dark:block'><img src="/img/comp_screen_1_mob_dark.svg" alt="" className="w-screen mt-12 h-54 overflow-hidden tablet:hidden transform translate-x-20 translate-y-5 scale-150" /></div>
 
         <div className="flex flex-col w-12/12 laptop:max-w-md mt-24 tablet:mt-16 laptop:mt-20 pb-20 tablet:pb-0">
-        <Link href="/not-found" passHref><Button className=" bg-secondary dark:bg-darkbutton text-sm w-full tablet:w-80 tablet:text-[20px] laptop:text-[28px] font-medium text-white m-auto tablet:ml-0 laptop:m-auto laptop:w-421 h-12 tablet:h-14 laptop:h-24 rounded-xl tablet:rounded-2xl laptop:rounded-3xl hover:bg-btnHover dark:hover:bg-darkBtnHover dark:text-darkButtonText ">Быстрая игра</Button></Link>
-    
+          <Link href="/not-found" passHref><Button className=" bg-secondary dark:bg-darkbutton text-sm w-full tablet:w-80 tablet:text-[20px] laptop:text-[28px] font-medium text-white m-auto tablet:ml-0 laptop:m-auto laptop:w-421 h-12 tablet:h-14 laptop:h-24 rounded-xl tablet:rounded-2xl laptop:rounded-3xl hover:bg-btnHover dark:hover:bg-darkBtnHover dark:text-darkButtonText ">Быстрая игра</Button></Link>
+
 
           <div className="flex flex-row w-full tablet:w-80 pt-0 justify-between gap-0 laptop:gap-2 mt-6 tablet:mt-4 laptop:mt-9 p-1">
             <Dialog className='p-[24px] w-80 '>
@@ -85,9 +85,8 @@ const Hero = () => {
               </DialogContent>
             </Dialog>
 
-            
             <Separator className="hidden tablet:block tablet:ml-1 tablet:h-7 w-0.5 mt-1 bg-divider dark:bg-darkThemeText" />
-            
+
             <Dialog className='p-[24px] w-80 '>
               <DialogTrigger>
                 <Button className="text-main tracking-wide dark:text-darkThemeText text-sm tablet:text-base laptop:text-2xl pr-0 hover:underline relative hover:text-decoration-solid">Войти</Button>
@@ -98,7 +97,7 @@ const Hero = () => {
                 </DialogHeader>
                 <div className="flex flex-col mt-2 gap-2">
                   <div>
-                  <Label htmlFor="email" className='text-sm text-mainText dark:text-diaOverlay'>
+                    <Label htmlFor="email" className='text-sm text-mainText dark:text-diaOverlay'>
                       E-mail
                     </Label>
                     <Input
@@ -108,7 +107,7 @@ const Hero = () => {
                     />
                   </div>
                   <div>
-                  <Label htmlFor="pass" className='text-sm text-mainText dark:text-diaOverlay'>
+                    <Label htmlFor="pass" className='text-sm text-mainText dark:text-diaOverlay'>
                       Пароль
                     </Label>
                     <Input

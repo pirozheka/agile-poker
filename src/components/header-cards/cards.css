@@ -1,6 +1,6 @@
 .im1 {
   position: absolute;
-  top:15%;
+  top: 15%;
   right: 27%;
   z-index: 1;
 }
@@ -8,7 +8,7 @@
 .im2 {
   position: absolute;
   right: 9.077%;
-  top:21%;
+  top: 21%;
   z-index: 2;
 }
 
@@ -25,7 +25,7 @@
   transform: rotate(7deg);
   opacity: 1;
   right: 9%;
-  top:21%;
+  top: 21%;
   z-index: 2;
 }
 
@@ -37,7 +37,7 @@
   visibility: hidden;
   top: -30%;
   z-index: 3;
-  
+
 }
 
 .hand-02 {
@@ -62,10 +62,12 @@
     transform: translateY(-200px);
     opacity: 0;
   }
+
   50% {
     transform: rotate(5deg) translateY(0);
     opacity: 1;
   }
+
   to {
     transform: translateY(0);
     opacity: 1;
@@ -77,10 +79,12 @@
     transform: rotate(5deg) translateY(-200px);
     opacity: 1;
   }
+
   50% {
     transform: rotate(5deg) translateY(0);
     opacity: 1;
   }
+
   to {
     transform: rotate(5deg) translateY(-300px);
     opacity: 0;
@@ -92,6 +96,7 @@
     top: 1%;
     left: 67%;
   }
+
   .im4 {
     right: 5%;
   }

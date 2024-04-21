@@ -1,16 +1,16 @@
 'use client';
 import './about-cards.css';
 
-const AbouCards = () => {
+const AboutCards = () => {
     return (
         <div className='relative hidden tablet:block'>
             <div className="im7_0">
-            <img src="/img/слайд3_блок_карт.svg" alt="" className='ml-0 block dark:hidden'></img>
-            <img src="/img/слайд3_блок_dark.svg" alt="" className='ml-0 hidden dark:block'></img></div>
+                <img src="/img/слайд3_блок_карт.svg" alt="" className='ml-0 block dark:hidden'></img>
+                <img src="/img/слайд3_блок_dark.svg" alt="" className='ml-0 hidden dark:block'></img></div>
             <div className="im7_1">
                 <img src="/img/карта_команда3-1.svg" alt="" className='ml-0 block dark:hidden'></img>
                 <img src="/img/карта_команда3-1_dark.svg" alt="" className='ml-0 hidden dark:block'></img></div>
-             <div className="im7_2">
+            <div className="im7_2">
                 <img src="/img/карта_команда3-2.svg" alt="" className='ml-0 block dark:hidden'></img>
                 <img src="/img/карта_команда3-2_dark.svg" alt="" className='ml-0 hidden dark:block'></img></div>
             <div className="im7_3">
@@ -30,4 +30,4 @@ const AbouCards = () => {
     );
 };
 
-export default AbouCards;
+export default AboutCards;
