@@ -8,7 +8,7 @@ const Tabbar = () => {
   const [activeTab, setActiveTab] = useState(1);
 
   return (
-    <div className="tablet:hidden flex fixed z-10 bottom-0 h-[90px] w-screen border-y-[2px] text-mainText border-t-mainText dark:border-t-darkBtnHover bg-background dark:bg-darkThemeBg dark:text-darkBtnHover">
+    <div className="tablet:hidden flex fixed z-10 bottom-0 h-[70px] w-screen border-y-[2px] text-mainText border-t-mainText dark:border-t-darkBtnHover bg-background dark:bg-darkThemeBg dark:text-darkBtnHover">
       <button
         className={`flex relative  ${activeTab === 1 ? 'before:block before:absolute before:left-[1px] before:bg-mainText dark:before:bg-darkBtnHover before:w-full before:h-[8px] before:-inset-[8px] before:rounded-t-lg' : ''} w-1/4 h-full`}
         onClick={() => setActiveTab(1)}
