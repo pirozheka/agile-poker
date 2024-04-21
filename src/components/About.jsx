@@ -6,7 +6,7 @@ import ScrollSlider from "./ScrollSlider";
 const About = () => {
   return (
     <div className="overflow-hidden">
-      <div className="flex relative container mt-10 lg:mt-40" >
+      <div className="flex relative container mt-10 laptop:mt-32" >
       <div className='relative hidden tablet:block' >
         <div className="w-80">
           <AboutCards />
