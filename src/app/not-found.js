@@ -2,6 +2,7 @@
 import { Button } from "../components/ui/button";
 import Link from 'next/link'
 import React from "react"; 
+import './notf.css';
 
 
 export default function NotFound() {
